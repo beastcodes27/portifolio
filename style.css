@@ -1,11 +1,13 @@
 body {
     font-family: sans-serif;
     margin: 0;
+    background-color: #0d1b2a;
+    color: #e0e1dd;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #1b263b;
+    color: #e0e1dd;
     padding: 20px;
 }
 
@@ -31,17 +33,17 @@ nav {
 }
 
 .nav-links a {
-    color: #fff;
+    color: #e0e1dd;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #ddd;
+    color: #b1a7a6;
 }
 
 #hero {
-    background-color: #f4f4f4;
+    background-color: #1b263b;
     padding: 100px 20px;
     text-align: center;
 }
@@ -49,10 +51,12 @@ nav {
 .hero-text h2 {
     font-size: 3em;
     margin: 0;
+    color: #e0e1dd;
 }
 
 .hero-text p {
     font-size: 1.5em;
+    color: #e0e1dd;
 }
 
 .typed-text-container {
@@ -64,7 +68,7 @@ nav {
     display: inline-block;
     width: 3px;
     height: 1.5em;
-    background-color: #333;
+    background-color: #e0e1dd;
     animation: blink 1s infinite;
     vertical-align: middle;
 }
@@ -80,8 +84,8 @@ nav {
 
 .button {
     display: inline-block;
-    background-color: #333;
-    color: #fff;
+    background-color: #778da9;
+    color: #0d1b2a;
     padding: 10px 20px;
     text-decoration: none;
     margin-top: 20px;
@@ -89,7 +93,7 @@ nav {
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #415a77;
 }
 
 section {
@@ -109,6 +113,7 @@ section.visible {
 
 #about h2, #projects h2, #contact h2 {
     text-align: center;
+    color: #e0e1dd;
 }
 
 .about-container {
@@ -129,7 +134,8 @@ section.visible {
 .project-card {
     width: 300px;
     margin: 20px;
-    border: 1px solid #ccc;
+    background-color: #1b263b;
+    border: 1px solid #415a77;
     border-radius: 5px;
     overflow: hidden;
     transition: transform 0.3s;
@@ -149,6 +155,7 @@ section.visible {
 
 #contact p {
     text-align: center;
+    color: #e0e1dd;
 }
 
 .social-links {
@@ -158,11 +165,11 @@ section.visible {
 
 .social-links a {
     margin: 0 10px;
-    color: #333;
+    color: #e0e1dd;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .social-links a:hover {
-    color: #555;
+    color: #b1a7a6;
 }
